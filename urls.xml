@@ -1,6 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>  
-<urls>  
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urls>
+  <url type="diffFlag">
+	<value>-1</value>
+  </url>
   <url type="server">  
     <ip>127.0.0.1</ip>
+  </url>
+  <url type="serverZh">  
+    <ip>127.0.0.1</ip>
+  </url>
+  <url type="serverEn">  
+    <ip>127.0.0.1</ip>
+  </url>
+  <url type="update">
+    <updateInfo>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateInfo>
+  </url>
+  <url type="updateZh">
+    <updateInfo>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateInfo>
+  </url>
+  <url type="updateEn">
+    <updateInfo>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateInfo>
   </url>
 </urls>
