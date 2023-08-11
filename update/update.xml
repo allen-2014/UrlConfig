@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updateInfo>
+	<version>2.0.61.0</version>
+	<files>
+		<file name="FixSFCDetails.exe">
+			<name>FixSFCDetails.exe</name>
+			<downloadUrl>https://gitee.com/arith/url-config/raw/master/update/FixSFCDetails.exe</downloadUrl>
+			<hash>F4nUrmpn7wmQDsykARFdNUJYWeV96hLsWJlWuNbz1pI=</hash>
+		</file>
+		<file name="FixSFCDetailsSvc.exe">
+			<name>FixSFCDetailsSvc.exe</name>
+			<downloadUrl>https://gitee.com/arith/url-config/raw/master/update/FixSFCDetailsSvc.exe</downloadUrl>
+			<hash>k8rD+kUGSCwH/LqDgzxTbrTI5Vbu1FY/w24AlRmpd08=</hash>
+		</file>
+	</files>
+</updateInfo>

@@ -1,24 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<urls>
-  <url type="diffFlag">
-	<value>-1</value>
-  </url>
-  <url type="server">  
-    <ip>127.0.0.1</ip>
-  </url>
-  <url type="serverZh">  
-    <ip>127.0.0.1</ip>
-  </url>
-  <url type="serverEn">  
-    <ip>127.0.0.1</ip>
-  </url>
-  <url type="update">
-    <updateInfo>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateInfo>
-  </url>
-  <url type="updateZh">
-    <updateInfo>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateInfo>
-  </url>
-  <url type="updateEn">
-    <updateInfo>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateInfo>
-  </url>
-</urls>
+<config>
+	<flags>
+		<!-- 指示要不要区分zh和en -->
+		<flag type="diffFlag">
+			<value>-1</value>
+		</flag>
+		<!-- 指示要不要强制更新。0：不需要；1：需要。
+		version:表示强制更新到的版本号 -->
+		<flag type="update">
+			<value>0</value>
+			<version>2.0.30.0</version>
+		</flag>
+	</flags>
+	<urls>
+	  <url type="server">  
+	    <ip>192.168.3.3</ip>
+	    <domain></domain>
+	    <protocol>http</protocol>
+	    <port>80</port>
+	  </url>
+	  <url type="serverZh">  
+	    <ip>127.0.0.1</ip>
+	    <domain></domain>
+	    <protocol>http</protocol>
+	    <port>80</port>
+	  </url>
+	  <url type="serverEn">  
+	    <ip>127.0.0.1</ip>
+	    <domain></domain>
+	    <protocol>http</protocol>
+	    <port>80</port>
+	  </url>
+	  <!-- update配置文件所在url，update.xml拥有最新的更新信息-->
+	  <url type="update">
+	    <updateXml>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateXml>
+	  </url>
+	  <url type="updateZh">
+	    <updateXml>https://gitee.com/arith/url-config/raw/master/update/update.xml</updateXml>
+	  </url>
+	  <url type="updateEn">
+	    <updateXml>https://raw.githubusercontent.com/allen-2014/UrlConfig/main/update/update.xml</updateXml>
+	  </url>
+	  <url type="feedBack">
+	    <feedBackUrl>https://gitee.com/arith/FixSFCDetails-FeedBack/issues</feedBackUrl>
+	  </url>
+	  <url type="feedBackZh">
+	    <feedBackUrl>https://gitee.com/arith/FixSFCDetails-FeedBack/issues</feedBackUrl>
+	  </url>
+	  <url type="feedBackEn">
+	    <feedBackUrl>https://github.com/allen-2014/FixSFCDetails-FeedBack/issues</feedBackUrl>
+	  </url>
+	</urls>
+</config>
