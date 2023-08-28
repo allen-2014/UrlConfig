@@ -17,19 +17,19 @@
 	    <ip>43.159.41.122</ip>
 	    <domain>sysfixer.net</domain>
 	    <protocol>http</protocol>
-	    <port>89</port>
+	    <port>2052</port>
 	  </url>
 	  <url type="serverZh">
 	    <ip>43.159.41.122</ip>
 	    <domain>sysfixer.net</domain>
 	    <protocol>http</protocol>
-	    <port>89</port>
+	    <port>2052</port>
 	  </url>
 	  <url type="serverEn">  
 	    <ip>43.159.41.122</ip>
 	    <domain>sysfixer.net</domain>
 	    <protocol>http</protocol>
-	    <port>89</port>
+	    <port>2052</port>
 	  </url>
 	  <!-- update配置文件所在url，update.xml拥有最新的更新信息-->
 	  <url type="update">
