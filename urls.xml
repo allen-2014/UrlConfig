@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
 	<flags>
-		<!-- 指示要不要区分zh和en -->
+		<!-- 指示要不要区分zh和en,-1区分，其他不区分 -->
 		<flag type="diffFlag">
-			<value>-1</value>
+			<value>1</value>
 		</flag>
 		<!-- 指示要不要强制更新。0：不需要；1：需要。
 		version:表示强制更新到的版本号 -->
@@ -14,22 +14,22 @@
 	</flags>
 	<urls>
 	  <url type="server">  
-	    <ip>192.168.3.3</ip>
-	    <domain></domain>
+	    <ip>43.159.41.122</ip>
+	    <domain>sysfixer.net</domain>
 	    <protocol>http</protocol>
-	    <port>80</port>
+	    <port>89</port>
 	  </url>
-	  <url type="serverZh">  
-	    <ip>127.0.0.1</ip>
-	    <domain></domain>
+	  <url type="serverZh">
+	    <ip>43.159.41.122</ip>
+	    <domain>sysfixer.net</domain>
 	    <protocol>http</protocol>
-	    <port>80</port>
+	    <port>89</port>
 	  </url>
 	  <url type="serverEn">  
-	    <ip>127.0.0.1</ip>
-	    <domain></domain>
+	    <ip>43.159.41.122</ip>
+	    <domain>sysfixer.net</domain>
 	    <protocol>http</protocol>
-	    <port>80</port>
+	    <port>89</port>
 	  </url>
 	  <!-- update配置文件所在url，update.xml拥有最新的更新信息-->
 	  <url type="update">
